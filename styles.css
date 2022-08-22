@@ -2,7 +2,13 @@
 @import url("styles/header.css");
 
 :root {
-    --cor-branca: #FFFFFF;
+    --white:  #FFFFFF;
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 62%, 26%);
+    --dark-moderate: hsl(168, 34%, 41%);
+    --preto: black;
 
     --fonte-barlow: 'Barlow', sans-serif;
     --fonte-fraunces: 'Fraunces', serif;
