@@ -85,6 +85,10 @@
     color: var(--preto);
 }
 
+.container__botao {
+    display: none;
+}
+
 
 
 
