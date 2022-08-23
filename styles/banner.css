@@ -3,14 +3,14 @@
     width: 100%;
 }
 
-.transform-your {
+.transform-your, .stand-out {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 3em 1.5em;
 }
 
-.transform-your__titulo {
+.transform-your__titulo, .stand-out__titulo {
     font-family: var(--fonte-fraunces);
     font-size: 30px;
     font-weight: 900;
@@ -18,8 +18,9 @@
     margin-bottom: 1em;
 }
 
-.transform-your__texto {
+.transform-your__texto, .stand-out__texto {
     font-family: var(--fonte-barlow);
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 30px;
@@ -27,7 +28,7 @@
     margin-bottom: 1.5em;
 }
 
-.transform-your__subtitulo {
+.transform-your__subtitulo, .stand-out__subtitulo {
     font-family: var(--fonte-fraunces);
     font-size: 17px;
     text-transform: uppercase;
