@@ -7,39 +7,54 @@
     width: 100%;
 }
 
-.container__imagem {
-    background-image: url("../img/image-graphic-design.jpg");
+.graphic-design__imagem {
+    background: url("../img/image-graphic-design.jpg");
     background-repeat: round;
     height: 600px;
     margin: 0;
     width: 100%;
 }
 
-.graphic-design__titulo {
+.photography__imagem {
+    background: url("../img/image-photography.jpg");
+    background-repeat: round;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+.graphic-design__titulo, .photography__titulo {
     margin-top: 385px;
     color: var(--dark-desaturated-cyan);
 }
 
-.graphic-design__texto {
+.graphic-design__texto, .photography__titulo {
     color: var(--dark-desaturated-cyan);
 }
 
-.transform-your, .stand-out, .graphic-design {
+.transform-your, .stand-out {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3em 1.5em;
+    margin: 3em 2.5em;
 }
 
-.transform-your__titulo, .stand-out__titulo, .graphic-design__titulo {
+.graphic-design, .photography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2.5em;
+}
+
+.transform-your__titulo, .stand-out__titulo, .graphic-design__titulo, .photography__titulo {
     font-family: var(--fonte-fraunces);
     font-size: 30px;
     font-weight: 900;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
-.transform-your__texto, .stand-out__texto, .graphic-design__texto {
+.transform-your__texto, .stand-out__texto, .graphic-design__texto, .photography__texto {
     font-family: var(--fonte-barlow);
     font-size: 16px;
     font-weight: 600;
