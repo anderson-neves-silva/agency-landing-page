@@ -10,17 +10,13 @@
 .graphic-design__imagem {
     background: url("../img/image-graphic-design.jpg");
     background-repeat: round;
-    height: 600px;
     margin: 0;
-    width: 100%;
 }
 
 .photography__imagem {
     background: url("../img/image-photography.jpg");
     background-repeat: round;
-    height: 100%;
     margin: 0;
-    width: 100%;
 }
 
 .graphic-design__titulo, .photography__titulo {
