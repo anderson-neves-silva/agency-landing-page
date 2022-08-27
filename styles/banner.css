@@ -28,7 +28,7 @@
     color: var(--dark-desaturated-cyan);
 }
 
-.graphic-design__texto, .photography__titulo {
+.graphic-design__texto, .photography__titulo, .photography__texto {
     color: var(--dark-desaturated-cyan);
 }
 
@@ -72,4 +72,50 @@
 
 .stand-out__titulo {
     letter-spacing: 1.1px;    
+}
+
+.client-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-client {
+    width: 80px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.client-testimonials__titulo {
+    font-family: var(--fonte-fraunces);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--dark-desaturated-cyan);
+    margin: 3em .5em;
+}
+
+.client-testimonials__texto, .client-testimonials__office {
+    font-family: var(--fonte-barlow);
+    font-size: 16px;
+    color: var(--dark-desaturated-cyan);
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 2em 2em 2em;
+}
+
+.client-testimonials__name {
+    font-family: var(--fonte-fraunces);
+    font-size: 20px;   
+}
+
+.client-testimonials__office {
+    font-family: var(--fonte-barlow);
+    font-size: 14px;
+    color: var(--dark-desaturated-cyan);
+    text-align: center;
+    margin: 0 2em 5em 2em;
 }

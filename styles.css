@@ -14,3 +14,7 @@
     --fonte-barlow: 'Barlow', sans-serif;
     --fonte-fraunces: 'Fraunces', serif;
 }
+
+body {
+    background-color: var(--white);
+}
