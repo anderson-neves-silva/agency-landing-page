@@ -1,6 +1,7 @@
 /*assim ao carregar o style carrega junto também o arquivo header e nosso index fica com menos linhas de tags link*/
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/footer.css");
 
 :root {
     --white:  #FFFFFF;

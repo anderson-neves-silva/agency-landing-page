@@ -1,0 +1,30 @@
+
+.rodape {
+    text-align: center;
+    height: 350px;
+    color: var(--dark-moderate);
+    background-color: rgb(176, 218, 176);
+}
+
+.rodape__titulo {
+    font-family: var(--fonte-barlow);
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.rodape__about {
+    margin: 1em;
+}
+
+.rodape__about a {
+    color: var(--dark-moderate);
+    margin: 1em;
+    text-decoration: none;
+}
+
+.rodape__redes img {
+    padding-top: 3em;
+    margin: 10px;
+}
