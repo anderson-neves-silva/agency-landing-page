@@ -115,3 +115,12 @@
     text-align: center;
     margin: 0 2em 5em 2em;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-gallery {
+    width: 50%;
+}
